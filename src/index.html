@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#008000">
+  <title>pwa-starter</title>
+  <link rel="stylesheet" href="style.css" media="all">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <h1 class="vertical-container">pwa-starter</h1>
+  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "API_KEY",
+      authDomain: "AUTH_DOMAIN",
+      databaseURL: "DATABASE_URL",
+      projectId: "PROJECT_ID",
+      storageBucket: "STORAGE_BUCKET",
+      messagingSenderId: "MESSAGING_SENDER_ID"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
