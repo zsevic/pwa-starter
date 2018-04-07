@@ -1,7 +1,7 @@
 # pwa-starter
 > Simple PWA (progressive web app) boilerplate
 
-### Setup
+### :wrench: Setup
 * set variables for Firebase project 
 * ```firebase init```
 * ```firebase deploy```
